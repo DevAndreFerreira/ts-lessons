@@ -1,0 +1,14 @@
+iniciando o projeto:
+npm init -y
+
+instalando type:
+npm i typescript -D
+
+compilando para js:
+npx tsc nomeArquivo.ts
+
+instalando ts-node:
+npm i ts-node -D 
+
+//ts-node serve para compilar o projeto pelo vsCode utilizando o code-runner. Precisamos criar uma pasta 
+//oculta chamada .vscode e colocar o settings.json conforme projeto
