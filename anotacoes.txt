@@ -12,3 +12,8 @@ npm i ts-node -D
 
 //ts-node serve para compilar o projeto pelo vsCode utilizando o code-runner. Precisamos criar uma pasta 
 //oculta chamada .vscode e colocar o settings.json conforme projeto
+
+instalando eslint:
+npm i eslint -D
+
+npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
