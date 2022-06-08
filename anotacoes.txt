@@ -7,6 +7,10 @@ npm i typescript -D
 compilando para js:
 npx tsc nomeArquivo.ts
 
+ou 
+
+utilizar apenas npx tsc para reconhecer o caminho do arquivo tsconfig.json
+
 instalando ts-node:
 npm i ts-node -D 
 
@@ -17,3 +21,11 @@ instalando eslint:
 npm i eslint -D
 
 npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser -D
+
+Instalando prettier:
+
+npm i prettier eslint-config-prettier eslint-plugin-prettier -D
+
+
+Começando um projeto com type:
+npx tsc --init
